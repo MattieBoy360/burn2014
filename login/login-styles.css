@@ -1,0 +1,22 @@
+body {
+	
+	background-image: url('http://192.168.0.6/burnfm/wp-content/uploads/2014/02/burnstudio.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 140%;
+	background-position: 50% 50%;
+}
+
+.login h1 a {
+	background-image: url('http://burnfm.com/wp-content/themes/burn2013/images/inline-logo.png');
+	background-color: gray;
+	background-size: 300px 60px;
+	width: 300px;
+	height: 60px;
+}
+
+.login form {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
