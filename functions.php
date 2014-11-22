@@ -7,7 +7,7 @@ require_once('wp_bootstrap_navwalker.php');
 function load_styles_to_theme() {
 	
 	wp_enqueue_style('my-bootstrap-extension', get_template_directory_uri() .'/css/bootstrap.min.css');
-	if(in_category('news')) {
+	if(in_category('news') && !is_home()) {
 		wp_register_style('news-style-sheet', get_template_directory_uri() .'/style_news.css');
 		wp_enqueue_style('news-style-sheet');
 		

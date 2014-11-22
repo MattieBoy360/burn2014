@@ -13,10 +13,7 @@
 	
 	
 	<?php wp_head(); ?>
-	<?php if(is_page_template('category-news.php')) { ?>
-		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>/style_news.css">
-		<?php }	
-	 ?>
+	
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
