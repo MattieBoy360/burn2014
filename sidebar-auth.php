@@ -39,7 +39,7 @@
 											   echo "$stime";
 										   }
 										   
-										   ?>-<?php ($etime > 12 ? $endtime = $etime-12 : $endtime = $etime);
+										   ?>-<?php ($etime > 13 ? $endtime = $etime-12 : $endtime = $etime);
 										   
 										   if(round($etime) != floor($etime) ) {
 											   $endtime = floor($endtime);

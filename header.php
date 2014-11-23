@@ -48,7 +48,7 @@
 								<?php }?>
 			        		
 			                <h3 class="tagline">Birmingham University Radio Network</h3>
-			               	<h3 class="tagline">Contact the studio at studio@burnfm.com</h3>
+			               	<h3 class="tagline">Contact the studio @burn_fm</h3>
 			        	</div>
           
 			           <?php if(display_burnshows())

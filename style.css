@@ -652,6 +652,11 @@ hr {
 	
 }
 
+.headline-store {
+	padding-bottom: 18px;
+	margin-bottom: 10px;
+	
+}
 .show-headline {
 	padding-bottom: 18px;
 	border-bottom: 1px solid #c5c5c5;
@@ -671,7 +676,7 @@ hr {
 	font-size: 16px;
 }
 
-.headline h1 {
+.headline h1, .headline-store h1 {
 	font-family: 'ralewaybold', sans-serif;
 	font-size: 27px;
 	color: #005b7f;
@@ -1196,4 +1201,27 @@ a:hover.show_link {
 
 .menu {
 	padding-left: 0px;
+}
+
+.store-item {
+	overflow: hidden;
+	border-bottom: 2px solid #ccc;
+}
+
+.buy-info {
+	margin-top: 20px;
+	align: right;
+}
+
+.item-title {
+	margin-top: 40px;
+}
+
+.item-text {
+	padding-left: 20px;
+}
+
+.item-img {
+	float:left;
+	width: 200px;
 }
